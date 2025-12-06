@@ -191,7 +191,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87947662}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -913,7 +913,7 @@ GameObject:
   - component: {fileID: 1167398294}
   - component: {fileID: 1167398293}
   m_Layer: 0
-  m_Name: Player_Walk
+  m_Name: Player_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1355,6 +1355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speed: 3
+  anim: {fileID: 1167398293}
+  playerSprite: {fileID: 1167398295}
 --- !u!4 &1758023392
 Transform:
   m_ObjectHideFlags: 0
@@ -1736,7 +1738,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030276963}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.02058252, w: 0.99978817}
+  m_LocalRotation: {x: -0, y: -0, z: 0.016487107, w: 0.99986416}
   m_LocalPosition: {x: 3.8182206, y: -0.21797438, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1744,7 +1746,7 @@ Transform:
   - {fileID: 1230078994}
   - {fileID: 2101394383}
   m_Father: {fileID: 955787928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.889}
 --- !u!1 &2101394382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,10 +1815,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1947737192}
+  - {fileID: 388792787}
   - {fileID: 252420704}
   - {fileID: 1758023392}
   - {fileID: 1020837448}
-  - {fileID: 388792787}
   - {fileID: 2000328219}
   - {fileID: 852188348}
   - {fileID: 1850264940}
